@@ -260,3 +260,6 @@ codegen-units = 1
 #
 # [patch."https://github.com/servo/rust-content-security-policy"]
 # content-security-policy = { path = "../rust-content-security-policy" }
+[patch."https://github.com/servo/mozjs"]
+mozjs = { git = "https://github.com/jdm/mozjs", branch = "null-handling" }
+mozjs_sys = { git = "https://github.com/jdm/mozjs", branch = "null-handling" }
